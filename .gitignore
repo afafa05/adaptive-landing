@@ -1,0 +1,30 @@
+# Node modules
+node_modules/
+
+# Sass / build caches
+.sass-cache/
+dist/
+build/
+
+# Compiled CSS (if you generate css/ from scss locally)
+css/*.css.map
+css/*.css
+
+# Logs
+*.log
+
+# OS/metafiles
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+
+# Env files
+.env
+/.env
+
+# npm
+npm-debug.log*
+package-lock.json

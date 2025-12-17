@@ -1,0 +1,121 @@
+.press-room {
+  position: relative;
+
+  &__title {
+    margin: 0 0 60px;
+    font-size: 40px;
+    line-height: 46px;
+
+    @include vp-1023 {
+      font-size: 32px;
+      line-height: 36px;
+      margin: 0 0 40px;
+      text-align: center;
+    }
+
+    @include vp-767 {
+      font-size: 20px;
+      line-height: 24px;
+      margin: 0 0 30px;
+    }
+  }
+
+
+  &__wrapper {
+    display: grid;
+    grid-template-columns: 420px 740px;
+    column-gap: 80px;
+
+    @include vp-1023 {
+      display: flex;
+      flex-direction: column;
+      row-gap: 40px;
+    }
+  }
+
+  &__box {
+    @include vp-1023 {
+      order: 2;
+    }
+  }
+
+  &__newsletter {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0 0 40px;
+    padding: 20px;
+    border-radius: 12px;
+    background-color: $color-ghost-white;
+    background-image: url("../images/subscribe/subscribe-image-desktop.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100%;
+
+
+    @media (min-resolution: 2dppx) {
+      background-image: url("../images/subscribe/subscribe-image-desktop@2x.png");
+    }
+
+    @include vp-1023 {
+      align-items: center;
+      background-image: url("../images/subscribe/subscribe-image-tablet.png");
+      margin: 0 0 20px;
+    }
+
+    @media (max-width: 1023px) and (min-resolution: 2dppx) {
+      background-image: url("../images/subscribe/subscribe-image-tablet@2x.png");
+    }
+
+    @include vp-767 {
+      background-image: none;
+      margin: 0 0 15px;
+    }
+  }
+
+  &__newsletter-title {
+    max-width: 220px;
+    margin: 0 0 10px;
+    font-size: 20px;
+    line-height: 24px;
+
+    @include vp-1023 {
+      font-size: 18px;
+      line-height: 22px;
+      max-width: 100%;
+    }
+
+    @include vp-767 {
+      font-size: 14px;
+      line-height: 18px;
+      margin: 0 0 5px;
+    }
+  }
+
+  &__newsletter-text {
+    max-width: 220px;
+    margin: 0 0 60px;
+    font-size: 15px;
+    line-height: 22px;
+
+    @include vp-1023 {
+      font-size: 14px;
+      line-height: 20px;
+      margin: 0 0 20px;
+    }
+
+    @include vp-767 {
+      font-size: 12px;
+      line-height: 16px;
+      margin: 0 0 15px;
+    }
+  }
+
+  &__newsletter-btn {
+    width: 115px;
+
+    @include vp-1023 {
+      width: 138px;
+    }
+  }
+}
