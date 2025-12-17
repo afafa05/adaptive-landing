@@ -29,3 +29,13 @@
 
 ## 🔗 Демо
 https://afafa05.github.io/adaptive-landing/
+
+
+## 📸 Скриншоты
+
+### Desktop
+![Desktop](screenshots/screenpage.png)
+![Desktop](screenshots/screencode.png)
+
+### Mobile
+![Mobile](screenshots/mobile.png)
