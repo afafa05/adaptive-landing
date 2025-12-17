@@ -28,4 +28,4 @@
 ---
 
 ## 🔗 Демо
-https://username.github.io/project-name/
+https://afafa05.github.io/adaptive-landing/
