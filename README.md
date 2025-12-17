@@ -34,8 +34,11 @@ https://afafa05.github.io/adaptive-landing/
 ## 📸 Скриншоты
 
 ### Desktop
-![screenpage](screenshots/desktop/screenpage.png)
-![screencode](screenshots/desktop/screencode.png)
+![Desktop](screenshots/desktop/screenpage.png)
+![Desktop](screenshots/desktop/screencode.png)
+
+### Tablet
+![Tablet](screenshots/tablet/tablet.png)
 
 ### Mobile
-![Mobile](screenshots/mobile.png)
+![Mobile](screenshots/mobile/mobile.png)
